@@ -1,5 +1,5 @@
 default:
 	@rm -rf .terrafrom
 	@git pull
-	@terrafrom init
-	@terrafrom apply -auto-approve
+	@terraform init
+	@terraform apply -auto-approve
