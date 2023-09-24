@@ -29,6 +29,8 @@ variable "params" {
 
     ### passwords will be never part of git repos, usually in organizations we create them manually, whom ever have access can provision them
     { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
+    { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
+    { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
 
     { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.veerankitek.com:8080", type = "String" },
     { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.veerankitek.com", type = "String" },
