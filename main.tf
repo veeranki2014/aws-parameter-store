@@ -15,7 +15,8 @@ variable "params" {
     { name = "roboshop.dev.frontend.payment_url", value = "https://payment-dev.veerankitek.com/", type = "String" },
     { name = "roboshop.dev.frontend.shipping_url", value = "https://shipping-dev.veerankitek.com/", type = "String" },
 
-    { name = "roboshop.dev.cart.redis_host", value = "redis-dev.veerankitek.com", type = "String" },
+    #{ name = "roboshop.dev.cart.redis_host", value = "redis-dev.veerankitek.com", type = "String" },
+    { name = "roboshop.dev.cart.redis_host", value = "elasticache-dev.fzjo92.clustercfg.use1.cache.amazonaws.com", type = "String" },
     { name = "roboshop.dev.cart.catalogue_host", value = "catalogue-dev.veerankitek.com", type = "String" },
     { name = "roboshop.dev.cart.catalogue_port", value = "8080", type = "String" },
 
