@@ -18,7 +18,8 @@ variable "params" {
     #{ name = "roboshop.dev.cart.redis_host", value = "redis-dev.veerankitek.com", type = "String" },
     { name = "roboshop.dev.cart.redis_host", value = "elasticache-dev.fzjo92.clustercfg.use1.cache.amazonaws.com", type = "String" },
     { name = "roboshop.dev.cart.catalogue_host", value = "catalogue-dev.veerankitek.com", type = "String" },
-    { name = "roboshop.dev.cart.catalogue_port", value = "8080", type = "String" },
+    //{ name = "roboshop.dev.cart.catalogue_port", value = "8080", type = "String" },
+    { name = "roboshop.dev.cart.catalogue_port", value = "443", type = "String" },
 
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
     //{ name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.veerankitek.com:27017/catalogue", type = "String" },
@@ -36,7 +37,8 @@ variable "params" {
     { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.veerankitek.com", type = "String" },
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     //{ name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.veerankitek.com:27017/users", type = "String" },
-    { name = "roboshop.dev.user.redis_host", value = "redis-dev.veerankitek.com", type = "String" },
+    //{ name = "roboshop.dev.user.redis_host", value = "redis-dev.veerankitek.com", type = "String" },
+    { name = "roboshop.dev.user.redis_host", value = "elasticache-dev.fzjo92.clustercfg.use1.cache.amazonaws.com", type = "String" },
     { name = "roboshop.dev.mysql.username", value = "roboshop", type = "String" },
     { name = "roboshop.dev.docdb.username", value = "roboshop", type = "String" },
 
