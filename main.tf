@@ -34,7 +34,7 @@ variable "params" {
 
     { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
     { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.veerankitek.com:80", type = "String" },
-    { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.veerankitek.com", type = "String" },
+    { name = "roboshop.dev.shipping.db_host", value = "rds-dev.cluster-cx8kkrzk6cpv.us-east-1.rds.amazonaws.com", type = "String" },
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "elasticache-dev.fzjo92.clustercfg.use1.cache.amazonaws.com", type = "String" },
     { name = "roboshop.dev.mysql.username", value = "roboshop", type = "String" },
